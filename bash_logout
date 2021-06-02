@@ -13,7 +13,7 @@ then
         rm -f ~/.ssh/session_counter ~/.ssh/ssh_agent_pid ~/.ssh/ssh_auth_sock
         ssh-agent -k
     else
-        echo $nsess > ~/.ssh/session_counter
+        echo $nsess >| ~/.ssh/session_counter
     fi
 fi
 
