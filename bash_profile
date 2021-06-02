@@ -27,5 +27,5 @@ then
     echo 1 > ~/.ssh/session_counter
 else
     nsess=$( cat ~/.ssh/session_counter )
-    echo $(( $nsess + 1 )) > ~/.ssh/session_counter
+    echo $(( $nsess + 1 )) >| ~/.ssh/session_counter
 fi
