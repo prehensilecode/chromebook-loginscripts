@@ -1,7 +1,7 @@
 # /etc/skel/.bash_profile
 
 # This file is sourced by bash for login shells.  The following line
-# runs your .bashrc and is recommended by the bash info pages.
+# runs your .bashrc and is recommended by the bash info pages (Sec. 6.2 Bash Startup Files)
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 
